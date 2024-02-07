@@ -2,9 +2,9 @@
 //Conexion a base de datos
 
 $servername = "localhost"; //Se coloca localhost ya que el archivo sera subido al hosting que sera localhost en el momento de consumo
-$username = "nilfiskc"; //nombre asignado en el hosting muy importante, si hay un error no se conectara y habra un posible error en consola de firefox como NO DATABASE CONNECTED
-$password = "123456"; //Igualmente importante ya que es la contraseña del usuario la cual si esta mal escrita no conecta
-$dbname = "nilfiskc_listado"; //La base de datos si esta mal escrita no se podra ingresar a nada
+$username = "n"; //nombre asignado en el hosting muy importante, si hay un error no se conectara y habra un posible error en consola de firefox como NO DATABASE CONNECTED
+$password = "12"; //Igualmente importante ya que es la contraseña del usuario la cual si esta mal escrita no conecta
+$dbname = "nilfiskco"; //La base de datos si esta mal escrita no se podra ingresar a nada
 
 // Crear una conexión con MySQL
 $conn = new mysqli($servername, $username, $password, $dbname);
